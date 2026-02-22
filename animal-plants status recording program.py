@@ -10,16 +10,20 @@ animal_dicts = {}
 plant_dicts = {}
 animals = []
 plants = []
-
-if Path('animal_list.json').exists():
-    with open('animal_list.json', 'r') as f:
-        animal_dicts = json.load(f)
-        animals = list(animal_dicts.keys())
-
-if Path('plant_list.json').exists():
-    with open('plant_list.json', 'r') as f:
-        plant_dicts = json.load(f)
-        plants = list(plant_dicts.keys())
+try:
+    if Path('animal_list.json').exists():
+        with open('animal_list.json', 'r') as f:
+            animal_dicts = json.load(f)
+            animals = list(animal_dicts.keys())
+except FileNotFoundError:
+    animal_dicts = {}
+try:
+    if Path('plant_list.json').exists():
+        with open('plant_list.json', 'r') as f:
+            plant_dicts = json.load(f)
+            plants = list(plant_dicts.keys())
+except FileNotFoundError:
+    plant_dicts = {}
 
 # ADD NEW ORGANISMS 
 ANIMAL_CODE = 'a'
@@ -183,7 +187,8 @@ while True:
         print('Organism not found.')
 
 print('\nProgram finished. Data saved.')
-        
+
+input('press enter to quit')        
      
    
      
