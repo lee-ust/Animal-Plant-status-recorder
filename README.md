@@ -51,10 +51,11 @@ Example graph:
    or
 
    
-   copy and paste the following command (replace the bracket to where your program is stored) to your cmd and run it :
+   copy and paste the following commandto your cmd and run it :
 
    
-   cd (where the program is stored) && python "animal-plants status recording program.py"
+   cd your\program\folder && python "animal-plants status recording program.py"
+
 
 
 
