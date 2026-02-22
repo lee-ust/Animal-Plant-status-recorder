@@ -19,7 +19,7 @@ I am interested in how technology can assist environmental and ecological work -
 
 ## Thoughts of future development
 1. Implement better UI:
-The recorder is now text - operated, Its inconvenient to use. Would be better (and look cleaner) if user can operate it with buttons.
+The recorder is now text - based, Its inconvenient to use. Would be better (and look cleaner) if user can operate it with buttons.
 
 2. Support more customization: 
 Right now the program only support preset health indicators, in future the program should support better customization. E.g. users can enter what category they want to record for this animal / plants, and for different animals and plants they can have different parameters.
@@ -43,3 +43,4 @@ Example graph:
 2. Please make sure you have installed matplotlib so you can use the graph function. If you have not, please copy and paste the following command to your powershell:
     
     pip install matplotlib
+
