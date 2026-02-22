@@ -45,7 +45,7 @@ Example graph:
     pip install matplotlib
 3. If you are using Windows ,becuase of some features of the system, direct double-click the python file will let the program quit instantly. You may either:
    
-   download the running_program as well, and double-click the running-program batch to run the program
+   download the running_program as well, and double-click the running-program batch to run the program(make sure they are in the same folder)
 
    
    or
@@ -55,6 +55,7 @@ Example graph:
 
    
    cd your\program\folder && python "animal-plants status recording program.py"
+
 
 
 
